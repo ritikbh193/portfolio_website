@@ -60,14 +60,14 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Decorative code snippet */}
-      <div className="absolute bottom-10 left-10 hidden lg:block opacity-30 pointer-events-none font-mono text-xs text-primary">
+      {/* <div className="absolute bottom-10 left-10 hidden lg:block opacity-30 pointer-events-none font-mono text-xs text-primary">
         <div className="bg-slate-900/80 p-4 rounded-lg border border-slate-800 backdrop-blur-sm">
            <p className="mb-1"><span className="text-purple-400">class</span> <span className="text-yellow-200">Engineer</span>:</p>
            <p className="mb-1 pl-4"><span className="text-purple-400">def</span> <span className="text-blue-400">__init__</span>(self):</p>
            <p className="mb-1 pl-8">self.stack = [<span className="text-green-300">'PyTorch'</span>, <span className="text-green-300">'LLMs'</span>]</p>
            <p className="mb-1 pl-8">self.passion = <span className="text-green-300">'Building the Future'</span></p>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
